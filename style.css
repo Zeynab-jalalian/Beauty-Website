@@ -93,17 +93,18 @@ ul{
     grid-auto-rows: 1fr;
  }
  .header div{
-   padding-left: 200px;
+   padding-left: 150px;
  }
  .header div p{
     color: rgb(72, 102, 72);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
  }
  .header div h3{
-    font-size: 25px;
+    font-size: 35px;
     margin: 10px 0;
-    max-width: 200px;
+    min-width: 300px;
+    margin-top: 10px;
     margin-bottom: 20px;
  }
  .header div a{
