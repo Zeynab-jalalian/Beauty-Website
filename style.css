@@ -41,8 +41,14 @@
 .nav-header .nav-header-left a:hover{
     color: rgb(105 139 105);
 }
-
-
+.nav-header .nav-header-right span{
+    margin:0 10px;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+.nav-header .nav-header-right span:hover{
+    color: #000;
+}
 
 
 
