@@ -88,24 +88,24 @@ ul{
     background-size: cover;
     padding: 20px;
  }
- .header p{
+ .header div p{
     color: rgb(72, 102, 72);
     font-size: 16px;
     font-weight: 800;
  }
- .header h3{
+ .header div h3{
     font-size: 25px;
     margin: 10px 0;
     max-width: 200px;
  }
- .header a{
+ .header div a{
     color: #fff;
     background: rgb(72, 102, 72);
     padding: 8px 12px;
     border-radius: 10px;
     margin-top: 10px;
  }
- .header a:hover{
+ .header div a:hover{
     color: rgb(72, 102, 72);
     background: #fff;
  }
