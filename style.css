@@ -26,8 +26,21 @@
  padding: 20px;
  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
-
+.nav-header .nav-header-left span{
+    color: #a5a5a5;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.nav-header .nav-header-left span:hover{
+    color: #000;
+}
+.nav-header .nav-header-left a{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+.nav-header .nav-header-left a:hover{
+    color: rgb(105 139 105);
+}
 
 
 
