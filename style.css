@@ -156,11 +156,29 @@ ul{
     }
 }
 @media(max-width:500px){
+    .header {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
     .nav-header .nav-header-right span{
         font-size: 13px;
     }
     .nav-header .nav-header-left span{
         font-size: 15px;
+    }
+    .header div{
+        background: rgba(255,255,255,0.2);
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header div h3{
+        text-align: center;
     }
 }
 @media(max-width:450px){
@@ -216,5 +234,11 @@ ul{
     }
     .header div h3{
     max-width: 140px;
+    }
+}
+@media(max-width:300px){
+    .header div{
+        width: auto;
+        height: auto;
     }
 }
