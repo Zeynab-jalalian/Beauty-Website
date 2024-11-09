@@ -204,3 +204,17 @@ ul{
         min-width: 200px;
     }
 }
+@media(max-width:700px){
+    .header div h3 {
+        font-size: 25px;
+        min-width: 100px;
+    }
+}
+@media(max-width:600px){
+    .header div {
+        padding-left: 0;
+    }
+    .header div h3{
+    max-width: 140px;
+    }
+}
