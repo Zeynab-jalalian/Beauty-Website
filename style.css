@@ -108,10 +108,7 @@ ul{
       }
 }
 @media(max-width:900px){
-    .nav-header{
-        justify-content: center;
-    }
-    .nav-header .nav-header-right,.nav-header-left{
+    .nav-header .nav-header-center ul li{
         display: none;
     }
 }
