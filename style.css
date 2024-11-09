@@ -97,13 +97,13 @@ ul{
     font-size: 25px;
     margin: 10px 0;
     max-width: 200px;
+    margin-bottom: 30px;
  }
  .header div a{
     color: #fff;
     background: rgb(72, 102, 72);
     padding: 8px 12px;
     border-radius: 10px;
-    margin-top: 10px;
  }
  .header div a:hover{
     color: rgb(72, 102, 72);
