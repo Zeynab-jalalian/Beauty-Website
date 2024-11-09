@@ -112,3 +112,38 @@ ul{
         display: none;
     }
 }
+@media(max-width:500px){
+    .nav-header .nav-header-right span{
+        font-size: 13px;
+    }
+    .nav-header .nav-header-left span{
+        font-size: 15px;
+    }
+}
+@media(max-width:450px){
+    .nav-header .nav-header-center ul h1 {
+        font-size: 20px;
+    }
+    .nav-header .nav-header-right span {
+        margin: 0 5px
+    }
+    .nav-header .nav-header-left span {
+        margin-right: 5px;
+    }
+}
+@media(max-width:350px){
+    .nav-header .nav-header-left a {
+        display: none;
+    }
+    .nav-header .nav-header-right span:nth-child(2),.nav-header-right span:nth-child(3){
+        display: none;
+    }
+}
+@media(max-width:250px){
+    .nav-header{
+        justify-content: center;
+    }
+    .nav-header .nav-header-right,.nav-header-left{
+        display: none;
+    }
+}
