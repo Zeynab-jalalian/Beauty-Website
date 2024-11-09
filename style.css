@@ -184,3 +184,11 @@ ul{
         display: none;
     }
 }
+@media(max-width:1200px){
+    .header div{
+        padding-left: 20px;
+    }
+    .header div h3 {
+        max-width: 300px;
+    }
+}
