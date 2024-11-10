@@ -138,6 +138,12 @@ ul{
     margin-bottom: 10px;
     color: #a5a5a5;
  }
+ .gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   padding: 100px;
+ }
 /* responsive */
 @media (max-width:500px){
     .top-header p{
