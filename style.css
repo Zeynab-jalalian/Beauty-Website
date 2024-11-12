@@ -259,6 +259,13 @@ main div p {
     height: 300px;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products .card .imgbox img{
+    width: 100%;
+    height: 100%;
 }
 /* responsive */
 @media (max-width:500px) {
