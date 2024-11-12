@@ -272,6 +272,11 @@ main div p {
     .top-header p {
         font-size: 13px;
     }
+   .sell .products .card {
+        width: 100%;
+        margin: 20px 0;
+        height: 100%;
+    }
 }
 
 @media (max-width:300px) {
@@ -313,7 +318,13 @@ main div p {
         font-size: 30px;
     }
 }
-
+@media(max-width:920px){
+    .products .card {
+        width: 50%;
+        margin:20px 0;
+        height: 100%;
+    }
+}
 @media(max-width:500px) {
     .header {
         justify-items: center;
@@ -406,6 +417,10 @@ main div p {
 
     .header div h3 {
         max-width: 300px;
+    }
+    .products .card .imgbox {
+        width: 150px;
+        height: 200px;
     }
 }
 
