@@ -273,6 +273,29 @@ main div p {
     width: 100%;
     height: 100%;
 }
+
+footer .sec span{
+    color: rgb(32, 78, 32);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+footer .sec h1{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+footer .sec p{
+    color: #535353;
+    font-size: 13px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c9c9c9;
+    padding: 30px;
+}
 /* responsive */
 @media (max-width:500px) {
     .top-header p {
