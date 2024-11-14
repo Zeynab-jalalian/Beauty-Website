@@ -470,6 +470,12 @@ footer .sec{
         font-size: 30px;
         min-width: 200px;
     }
+    footer .sec h1{
+        font-size: 14px;
+    }
+    footer .sec p{
+        font-size: 10px;
+    }
 }
 
 @media(max-width:700px) {
