@@ -278,10 +278,15 @@ footer .sec span{
     color: rgb(32, 78, 32);
     margin-bottom: 10px;
     font-size: 25px;
+    cursor: pointer;
+}
+footer .sec span:hover{
+    transform: scale(1.2);
 }
 footer .sec h1{
     font-size: 16px;
     margin-bottom: 5px;
+    color: #262626;
 }
 footer .sec p{
     color: #535353;
@@ -293,8 +298,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background: #c9c9c9;
     padding: 30px;
+}
+footer .sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 /* responsive */
 @media (max-width:500px) {
