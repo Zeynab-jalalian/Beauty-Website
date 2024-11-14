@@ -538,3 +538,8 @@ footer .sec{
         font-size: 12px;
     }
 }
+@media(max-width:450px){
+    footer .sec h1{
+        display: none;
+    }
+}
