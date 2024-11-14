@@ -530,3 +530,11 @@ footer .sec{
         font-size: 13px;
     }
 }
+@media(max-width:630px){
+    footer .sec p{
+        display: none;
+    }
+    footer .sec h1{
+        font-size: 12px;
+    }
+}
